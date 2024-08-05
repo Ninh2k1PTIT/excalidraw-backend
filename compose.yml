@@ -1,0 +1,8 @@
+services:
+  excalidraw-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3002:80"
+      - "9091:9090"
